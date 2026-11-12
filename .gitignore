@@ -1,0 +1,76 @@
+# WordPress core: download/build locally instead of committing it
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/xmlrpc.php
+/license.txt
+/readme.html
+
+# Local configuration, credentials and installation state
+**/wp-config.php
+/.aurevia-installed
+.env
+.env.*
+!.env.example
+!.env.sample
+auth.json
+*.key
+*.pem
+*.p12
+*.pfx
+
+# WordPress-generated content, plugins and caches
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/upgrade-temp-backup/
+/wp-content/backups/
+/wp-content/updraft/
+/wp-content/ai1wm-backups/
+/wp-content/debug.log
+/wp-content/plugins/
+/wp-content/themes/twenty*/
+/wp-content/index.php
+/wp-content/themes/index.php
+
+# Build output, downloaded packages, dependencies and local servers
+/.runtime/
+/build/
+/dist/
+**/node_modules/
+/vendor/
+**/.cache/
+/coverage/
+/.phpunit.cache/
+/backup/
+/backups/
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# Database exports and local runtime data
+*.sql
+*.sql.gz
+*.sql.bz2
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# Editor, assistant and operating-system files
+/.idea/
+/.vscode/
+/.serena/
+/.codex/
+*.swp
+*.swo
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
